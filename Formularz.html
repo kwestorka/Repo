@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+<head>
+  <meta http-equiv="Content-type" content="application/xhtml+xml; charset=utf-8" />
+  <meta name="Description" content="Formularz kontaktowy strony Poznaj Super Samochody" />
+  <meta name="Keywords" content="kontakt,formularz, wiadomość, strona główna, najdroższe, najszybsze,przydatne linki,o autorze, inny temat" />
+  <meta name="Author" content="Michał Pączkowski" />
+  <meta name="Generator" content="kED" />
+
+  <title>Formularz Kontaktowy</title>
+
+ <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+	
+	
+	
+		<div id="logo">
+			Poznaj Super Samochody :)
+		</div>
+		
+
+		
+
+		
+		<div id="sidebar">
+		<a href="strona1.html"><img src="mercedes.png" alt="" width="130" height="100" /></a>
+			<div class="optionL"><a href="strona1.html">Strona główna</a></div>
+			<div class="optionL"><a href="strona2.html">Najdroższe</a></div>
+			<div class="optionL"><a href="strona3.html">Najszybsze</a></div>
+			<div class="optionL"><a href="strona4.html">Przydatne Linki</a></div>
+			<div class="optionL"><a href="strona5.html">O Autorze</a></div>
+			 <p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" /></a>
+  </p>
+		</div>
+		
+		
+		<div id="content">
+			<span class="bigtitle">NAJDROŻSZE ORAZ NAJSZYBSZE SAMOCHODY</span>
+			
+			<div class="dottedline"></div>
+			
+
+			<h2>Formularz Kontaktowy:</h2>
+
+<p>Wypełnianie i przesyłanie danych z formularza jest wstępną deklaracją kontaktu z administratorem strony.</p>
+
+
+
+<form action="odbior.php" method="post">
+<table>
+<tr>
+
+<td>
+Nazwa użytkownika:<input name="Nazwa" />
+
+</td>
+
+</tr>
+<tr>
+
+<td>
+Adres email: 	<input name="email" /> 
+</td>
+</tr>
+
+</table>
+
+<table>
+
+
+
+
+
+
+<tr><td><input type="checkbox" name="Strona[]" value="Główna" /></td><td>Strona Główna</td></tr>
+<tr><td><input type="checkbox" name="Strona[]" value="Najdroższe" /></td><td>Najdroższe</td></tr>
+<tr><td><input type="checkbox" name="Strona[]" value="Najszybsze" /></td><td>Najszybsze</td></tr>
+<tr><td><input type="checkbox" name="Strona[]" value="Przydatne Linki" /></td><td>Przydatne Linki</td></tr>
+<tr><td><input type="checkbox" name="Strona[]" value="Inny Temat" /></td><td>Inny Temat: <input name="Inny Temat" /></td></tr>
+</table>
+
+<table>
+<tr>
+
+<td>
+Wiadomość: 		
+</td>
+
+</tr>
+<tr><td><textarea cols="50" rows="10" name="Wiadomosc"></textarea></td></tr>
+
+
+
+</table>
+
+
+
+<div><input type="submit" value="Wyślij "/> <input type="reset" value="Wyczyść" /></div>
+</form>
+
+
+</div>
+		
+		<div id="footer">
+			Strona wykonana na zaliczenie z przedmiotu PWI - Michał Pączkowski &copy; Wszelkie prawa zastrzeżone
+		</div>
+	
+	
+	
+</body>
+</html>
+
